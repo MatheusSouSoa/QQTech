@@ -1,0 +1,167 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 71, 16);
+}
+
+#child-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(35, 170, 35);
+    padding: 10px;
+    border: solid 1px white;
+    border-radius: 10px;
+    color: white;
+}
+
+table {
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: yellow;
+}
+
+table th,td {
+    background-color: green;
+    border: solid 2px yellow;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-size: xx-large;
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: solid 2px white;
+    user-select: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(194, 194, 28);
+}
+
+.actions{
+    width: 5rem;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: yellow;
+    border: solid 1px white;
+    border-radius: 10px;
+
+}
+
+#half{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: rgb(35, 170, 35);
+    border: solid 1px white;
+    border-radius: 10px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#taca {
+    width: 9rem;
+}
+
+#img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+}
+
+#logo-img {
+    width: 10rem;
+}
+
+#cad:hover {
+    cursor: pointer;
+    background-color: rgb(194, 194, 28);
+}
+
+
+input {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    height: 2rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    outline: none;
+    border: solid 1px white;
+    height: 1rem;
+    padding: 10px;
+    background-color: yellow;
+    font-weight: bolder;
+    color: green;
+    height: 30px;
+}
+
+h4 {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    
+    #half{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.porcentagens {
+    margin-bottom: 10px;
+}
